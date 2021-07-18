@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification</title>
+  <link rel="stylesheet" href="./assets/css/uikit.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="stylesheet" href="./assets/css/atom-one-dark-reasonable.min.css">
+  <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+  <script src="./assets/js/uikit.min.js"></script>
+</head>
+
+<body>
+  <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+    data-src="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80" data-srcset="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80 650w,
+                  https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=1300&h=866&q=80 1300w"
+    data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
+    <h1 class="title">NOTIFICATION.JS</h1>
+  </div>
+  <div class="uk-child-width-expand@s uk-padding uk-grid-match" uk-grid>
+    <div>
+      <div id="btns" class="uk-card uk-card-default uk-card-body ">
+        <div class="uk-flex  uk-flex-between uk-margin-bottom">
+          <button id="top_left" class="uk-button uk-button-default uk-margin-right"></button>
+          <button id="top_center" class="uk-button uk-button-default uk-margin-right"></button>
+          <button id="top_right" class="uk-button uk-button-default "></button>
+        </div>
+
+        <div class="uk-flex  uk-flex-between uk-margin-bottom">
+          <button id="bottom_left" class="uk-button uk-button-default uk-margin-right"></button>
+          <button id="bottom_center" class="uk-button uk-button-default uk-margin-right"></button>
+          <button id="bottom_right" class="uk-button uk-button-default"></button>
+        </div>
+
+        <div class="uk-flex uk-flex-between">
+          <button id="default" class="uk-button uk-button-primary uk-margin-right colors"></button>
+          <button id="success" class="uk-button uk-button-success uk-margin-right colors"></button>
+          <button id="warning" class="uk-button uk-button-warning uk-margin-right colors"></button>
+          <button id="danger" class="uk-button uk-button-danger colors"></button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="uk-card uk-card-default uk-card-body ">
+        <pre>
+            <code id="code" class="javascript"></code>
+        </pre>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/highlight.min.js"></script>
+  <script src="./assets/js/notification.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

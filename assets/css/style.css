@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+.title {
+  font-size: 72px;
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
+  color: white !important;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+#btns button {
+  width: 100%;
+  padding: 10px 12px;
+  line-height: initial;
+}
+
+@media (max-width: 374px) {
+  #btns button {
+    margin: 0 !important;
+  }
+}
+
+#top_left::after {
+  content: "\f853";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+#top_center::after {
+  content: "\f855";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+#top_right {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+#top_right::after {
+  content: "\f853";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+#bottom_left {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+#bottom_left::after {
+  content: "\f853";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+#bottom_center::after {
+  content: "\f84d";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+#bottom_right {
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+          transform: rotateY(180deg) rotateX(180deg);
+}
+
+#bottom_right::after {
+  content: "\f853";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+}
+
+.colors {
+  -webkit-transform: rotateY(180deg) rotateX(180deg);
+          transform: rotateY(180deg) rotateX(180deg);
+}
+
+.colors::after {
+  content: "\f853";
+  font-size: 24px;
+  font-family: "Font Awesome 5 Pro";
+  color: white;
+}
+
+#editor pre h1, #editor pre h2, #editor pre h3, #editor pre h4, #editor pre h5, #editor pre h6, #editor pre p {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font: 0.875rem / 1.5 Consolas, monaco, monospace;
+}
